@@ -24,11 +24,11 @@ const Navbar = () => {
                     <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}}>Contact</Button>
                 </Box>
             </Box>
-            <Box sx={{display: isActive ? { xs: "grid", md: "none" } : "none", gap: 2, bgcolor: '#8d6e63', borderRadius: 2}}>
-                <Button sx={{typography: 'body', fontWeight: 'bold', color: 'white'}} size='small'>Home</Button>
-                <Button sx={{typography: 'body', fontWeight: 'bold', color: 'white'}} size='small'>Shop</Button>
-                <Button sx={{typography: 'body', fontWeight: 'bold', color: 'white'}} size='small'>About</Button>
-                <Button sx={{typography: 'body', fontWeight: 'bold', color: 'white'}} size='small'>Contact</Button>
+            <Box sx={{display: isActive ? { xs: "grid", md: "none" } : "none", gap: 2, borderRadius: 2}}>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Home</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Shop</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>About</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Contact</Button>
             </Box>
         </Box>
     </>

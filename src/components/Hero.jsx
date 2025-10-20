@@ -4,7 +4,7 @@ import Interior from '../assets/Image/interiorBg.png'
 
 const Hero = () => {
   return (
-    <Box sx={{position: 'relative',width: 'auto', height: "100vh", mx: 'auto'}}>
+    <Box sx={{position: 'relative',width: 'auto', height: "auto", mx: 'auto'}}>
         <Box
             component="img"
             src={Interior}
