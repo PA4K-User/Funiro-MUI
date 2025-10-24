@@ -23,14 +23,14 @@ const BrowseTheRange = () => {
 
   return (
     <>
-        <Box sx={{maxWidth: '80%', mx: 'auto', py: 10}}>
+        <Box sx={{maxWidth: '80%', mx: 'auto', py: 6}}>
             <Box sx={{display: 'grid', gap: 2, justifyContent: 'center'}}>
-                <Typography sx={{typography: { xs: "h4", md: "h3" }, textAlign: 'center', fontWeight: { xs: "bold", md: "bold" }}}>Browse The Range</Typography>
-                <Typography sx={{typography: { xs: "body", md: "h6" }}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Typography>
+                <Typography sx={{typography: { xs: "h5", md: "h3" }, textAlign: 'center', fontWeight: { xs: "bold", md: "bold" }}}>Browse The Range</Typography>
+                <Typography sx={{typography: { xs: "body", md: "h6" }, textAlign: 'center'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Typography>
             </Box>
-            <Box sx={{display: {xs: 'grid', md: 'flex'}, gap: 12, justifyContent: 'center', mt: 8}}>
+            <Box sx={{display: {xs: 'grid', md: 'flex'}, gap: { xs: 4, md: 8 }, justifyContent: 'center', mt: 4}}>
                 {
-                    arr.map(({image, name}, index) => {
+                    arr.map(({image, name}) => {
                         return (
                             <Box sx={{display: 'grid', gap: 2}}>
                                 <Box component="img" src={image} alt="lizard" sx={{width: 300, height: 400, borderRadius: 2, boxShadow: 3, objectFit: 'cover'}}></Box>

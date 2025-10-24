@@ -95,9 +95,9 @@ const OurProduct = () => {
     <>
         <Box sx={{display: 'grid', color: '#bdbdbd', justifyContent: 'center'}}>
             <Typography sx={{typography: { xs: "h4", md: "h3" }, textAlign: 'center', fontWeight: { xs: "bold", md: "bold" }, color: 'black', mb: 4}}>Our Product</Typography>
-            <Box sx={{display: 'grid', gridTemplateColumns: { xs: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', xl: 'repeat(4, 1fr)' } , gap: 4, mb: 4}}>
+            <Box sx={{display: 'grid', gridTemplateColumns: { xs: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)', xl: 'repeat(4, 1fr)' } , gap: 4, mb: 4}}>
                  {
-                    arr.map(({bg, header, subHeader, price, priceDiscount, haveDiscout, discountPercent}, index) => {
+                    arr.map(({bg, header, subHeader, price, priceDiscount, haveDiscout, discountPercent}) => {
                         return (
                             <Box sx={{position: "relative", display: 'grid', gap: 0}}>
                                 <Box component="img" src={bg} alt="/" sx={{width: 400, height: 400, objectFit: 'cover'}}></Box>

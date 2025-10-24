@@ -11,7 +11,7 @@ const Hero = () => {
             alt="Interior"
             sx={{
                 width: "100%",
-                height: { xs: "60vh", md: "100vh" },
+                height: { xs: "80vh", md: "100vh" },
                 objectFit: "cover",
                 display: "block",
                 mx: "auto"

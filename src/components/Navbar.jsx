@@ -1,7 +1,7 @@
 import { Box, Button } from '@mui/material'
 import { useState } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faSearch, faHeart, faShoppingCart, faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
 
@@ -24,11 +24,11 @@ const Navbar = () => {
                     <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}}>Contact</Button>
                 </Box>
             </Box>
-            <Box sx={{display: isActive ? { xs: "grid", md: "none" } : "none", gap: 2, borderRadius: 2}}>
-                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Home</Button>
-                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Shop</Button>
-                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>About</Button>
-                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black', mx: 'auto'}} size='small'>Contact</Button>
+            <Box sx={{display: isActive ? { xs: "grid", md: "none" } : "none", gap: 2, justifyContent: 'center', borderRadius: 2}}>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}} size='small'>Home</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}} size='small'>Shop</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}} size='small'>About</Button>
+                <Button sx={{typography: 'h6', fontWeight: 'bold', color: 'black'}} size='small'>Contact</Button>
             </Box>
         </Box>
     </>
