@@ -4,7 +4,7 @@ import { Box, Button, Typography, Divider, TextField} from '@mui/material'
 const Footer = () => {
   return (
     <>
-        <Box sx={{maxWidth: '100%', mx: 'auto', mt: 4}}>
+        <Box sx={{maxWidth: '100%', mx: 'auto', mt: { xs: -2, md: 4 }}}>
             <Box sx={{display: 'grid', gridTemplateColumns: { xs: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)'}, gap: 4}}>
                 <Box sx={{display: 'grid', justifyContent: 'start', alignItems: 'start', gap: 4, p: 4}}>
                     <Typography sx={{typography: { xs: "h6", md: "h4" }, fontWeight: { xs: 'bold', md: 'bold' }, color: 'black'}}>Funiro</Typography>
@@ -36,7 +36,6 @@ const Footer = () => {
             </Box>
             <Divider/>
             <Typography sx={{typography: { xs: "body", md: "body" }, color: 'black', mt: 4, pl: 2}}>2025 Furino All rights reverved</Typography>
-
         </Box>
     </>
   )
