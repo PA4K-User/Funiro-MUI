@@ -24,7 +24,7 @@ const Inspirations = () => {
                     <Box component="img" src={ins3} alt="/" sx={{width: { xs: 140, md: 300 } , height: { xs: 100, md: 400 }}}></Box>
                 </Box>
             </Box>
-            <Box sx={{position: 'absolute', bottom: '3%', right: '45%', display: { xs: "none", md: "flex" }}}>
+            <Box sx={{position: 'absolute', bottom: '3%', right: '33%', display: { xs: "none", md: "flex" }}}>
                 <Box sx={{bgcolor: '#eeeeee', opacity: 0.7, textAlign: 'start', p: 4}}>
                     <Typography sx={{typography: { xs: "h4", md: "h6" }, color: 'black'}}>01 ---- Bed Room</Typography>
                     <Typography sx={{typography: { xs: "h4", md: "h6" }, fontWeight: { xs: "bold", md: "bold" }, color: 'black'}}>Inner Peace</Typography>
@@ -33,7 +33,7 @@ const Inspirations = () => {
                     <Button sx={{bgcolor: '#B88E2F', color: 'white', fontWeight: 'bold', borderRadius: 0}} variant="contained"><Box component="img" src={rightArrow} alt="/" sx={{width: 20, height: 20}}></Box></Button>
                 </Box>
             </Box>
-            <Box sx={{position: 'absolute', bottom: '3%', right: '37%', display: { xs: "none", md: "flex" } , gap: 2, alignItems: 'center'}}>
+            <Box sx={{position: 'absolute', bottom: '3%', right: '27%', display: { xs: "none", md: "flex" } , gap: 2, alignItems: 'center'}}>
                 <Box component="img" src={activeCircle} alt="/" sx={{width: 20, height: 20}}></Box>
                 <Box component="img" src={grayCircle} alt="/" sx={{width: 10, height: 10}}></Box>
                 <Box component="img" src={grayCircle} alt="/" sx={{width: 10, height: 10}}></Box>

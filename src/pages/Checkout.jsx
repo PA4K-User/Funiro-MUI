@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react'
-import { Box } from '@mui/material'
+import { Box} from '@mui/material'
+
 import Navbar from '../components/Navbar.jsx'
 import ImagePage from '../components/ImagePage.jsx'
-import GetInTouch from '../components/GetInTouch.jsx'
+import BillingDetails from '../components/BillingDetails.jsx'
 import Frame from '../components/Frame.jsx'
 import Footer from '../components/Footer.jsx'
 
-const Contact = () => {
+const Checkout = () => {
 
   const [headerActive, setHeaderActive] = useState(false);
   
@@ -43,12 +44,12 @@ const Contact = () => {
         >
           <Navbar/>
         </Box>
-        <ImagePage name ={"Contact"}/>
-        <GetInTouch/>
+        <ImagePage name={"Checkout"}/>
+        <BillingDetails/>
         <Frame/>
-        <Footer/>
+        <Footer/>    
     </>
   )
 }
 
-export default Contact
+export default Checkout
