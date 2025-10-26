@@ -177,7 +177,7 @@ const GetInTouch = () => {
                                 },
                             }}
                         />                       
-                        <Button type="submit" sx={{typography: 'body', bgcolor: "#B88E2F", color: 'white', borderRadius: "6px", "&:hover": { bgcolor: "#8f6f24ff"}, alignSelf: 'start'}} variant="contained">Submit</Button>
+                        <Button type="submit" sx={{typography: 'body', bgcolor: "#B88E2F", color: 'white', fontWeight: 'bold', borderRadius: "6px", "&:hover": { bgcolor: "#8f6f24ff"}, alignSelf: 'start'}} variant="contained">Submit</Button>
                     </Box>
                 </Box>
             </Box>
